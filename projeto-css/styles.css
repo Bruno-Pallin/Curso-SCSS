@@ -6,12 +6,15 @@ h1 {
 .hero {
     height: 100vh;
     background-color: lightgray;
+    display: flex;
+    align-items: center;
 }
 
 .hero-title {
     background-color: lightseagreen;
     text-align: center;
     padding: 5% 0;
+    width: 100%;
     /* padding: <vertical> <horizontal> */
     /* padding: <top> <right> <bottom> <left> */
 }

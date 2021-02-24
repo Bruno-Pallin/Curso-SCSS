@@ -18,3 +18,19 @@ h1 {
     /* padding: <vertical> <horizontal> */
     /* padding: <top> <right> <bottom> <left> */
 }
+
+.cards-container {
+    background-color: pink;
+    display: flex;
+}
+
+.card {
+    background-color: lightblue;
+    width: 400px;
+    height: 400px;
+    /* display:block - Padrão, trata como bloco e não permite elementos na mesma linha
+    display:inline - trata como texto, porém não permite altura e largura, podendo alinhar com text-align
+    display:inline-block - trata como o meio termo dos dois
+    
+    moderno - diplay:flex trata como blocos através do algorítmo do flexbox*/
+}

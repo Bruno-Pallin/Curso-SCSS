@@ -1,14 +1,14 @@
 h1 {
     color: blueviolet;
-    margin-top: 0;
+    /* margin-top: 0; Relacionado ao bug inicial de uma barra branca na parte superior da página, por conta de algum outro atributo do CSS estar passando do limite */
 }
 
-section {
+.hero {
     height: 100vh;
     background-color: lightgray;
 }
 
-div {
+.hero-title {
     background-color: lightseagreen;
     text-align: center;
     padding: 5% 0;

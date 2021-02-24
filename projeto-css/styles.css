@@ -1,3 +1,17 @@
 h1 {
     color: blueviolet;
+    margin-top: 0;
+}
+
+section {
+    height: 100vh;
+    background-color: lightgray;
+}
+
+div {
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 5% 0;
+    /* padding: <vertical> <horizontal> */
+    /* padding: <top> <right> <bottom> <left> */
 }

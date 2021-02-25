@@ -22,15 +22,24 @@ h1 {
 .cards-container {
     background-color: pink;
     display: flex;
+    /* Define qual o eixo principal 
+    flex-direction: column; */
 }
 
 .card {
     background-color: lightblue;
-    width: 400px;
+    /* width: 400px; */
     height: 400px;
+    border: solid;
+    flex: 1;
     /* display:block - Padrão, trata como bloco e não permite elementos na mesma linha
     display:inline - trata como texto, porém não permite altura e largura, podendo alinhar com text-align
     display:inline-block - trata como o meio termo dos dois
     
-    moderno - diplay:flex trata como blocos através do algorítmo do flexbox*/
+    moderno - diplay:flex trata como blocos através do algorítmo do flexbox, porém a utilização depende da ocasião*/
+}
+
+.card-large {
+    flex: 3;
+    /* Flex faz um cálculo, onde divide a tela com a soma de valores do flex de cada elemento, e "entrega" as partes com base na quantidade requirida */
 }

@@ -2,6 +2,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* --yale-blue */
 /*--independence */
 .hero {
@@ -38,8 +42,17 @@ body {
   border: solid;
 }
 
-h2 {
+.advantages-container {
+  display: flex;
+  justify-content: center;
+}
+.advantages-container .advantage {
+  width: 30vw;
   text-align: center;
+  font-size: 1.2em;
+}
+.advantages-container p {
+  padding: 0 15px 15px 15px;
 }
 
 /*# sourceMappingURL=general.css.map */
